@@ -31,7 +31,7 @@ def upgrade():
     sa.Column('CISLO_KARTY', sa.String(), nullable=False),
     sa.Column('TIME', sa.DateTime(), nullable=False),
     sa.Column('WTIME', sa.DateTime(), nullable=False),
-    sa.PrimaryKeyConstraint('id', name='pk_karty'),
+    sa.PrimaryKeyConstraint('id', name='xkarty'),
     sqlite_autoincrement=True
     )
     ### end Alembic commands ###
